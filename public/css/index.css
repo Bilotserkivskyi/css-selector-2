@@ -10,7 +10,7 @@
 /* Завдання №2. Змініть фон заголовка на зелений, коли користувач наведе курсор миші на посилання:
 Використовуйте цей селектор :hover */
 
-.lesson-four-task-two h1:hover {
+.lesson-four-task-two a:hover ~ h1 {
   background-color: green;
 }
 
@@ -141,7 +141,7 @@
 Використовуйте цей селектор :out-of-range  */
 
 .lesson-four-task-sixteen input:out-of-range {
-  background-color: red;
+  color: red;
 }
 
 /* Завдання №17.    Є форма з полем вводу числа, яке може бути від 0 до 100.
@@ -150,7 +150,7 @@
 Використовуйте цей селектор :in-range */
 
 .lesson-four-task-seventeen input:in-range {
-  background-color: red;
+  color: red;
 }
 
 /* Завдання №18.У цьому завданні потрібно зробити, щоб змінювався колір фону placeholder на червоний ,
